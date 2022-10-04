@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+    background: #F2EBFF;
+    width: 1440px;
+    height: 2776px;
+}
+
+#main-title {
+    position: absolute;
+    width: 123px;
+    height: 22px;
+    left: 90px;
+    top: 20px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+#login-button {
+    position: absolute;
+    width: 43px;
+    height: 19px;
+    left: 1307px;
+    top: 20px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #000000;
+
+    opacity: 0.8;
+}
+
+video {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 828px;
+    height: 500px;
+    left: 90px;
+    top: 134px;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.name {
+    position: absolute;
+    width: 122px;
+    height: 49px;
+    left: 955px;
+    top: 144px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.rating {
+    position: absolute;
+    width: 44px;
+    height: 29px;
+    left: 1097px;
+    top: 154px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    border: 1px solid #BBB8C0;
+    border-radius: 6px;
+}
+
+.sub-info {
+    position: absolute;
+    width: 124px;
+    height: 17px;
+    left: 956px;
+    top: 203px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+.description {
+    position: absolute;
+    width: 394px;
+    height: 104px;
+    left: 956px;
+    top: 250px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+
+    color: #000000;
+}
+
+table {
+    position: absolute;
+    width: 350px;
+    height: 151px;
+    left: 955px;
+    top: 384px;
+
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+td {
+    height: 45px;
+}
+
+th {
+    font-weight: 600;
+}
+
+#trailer-button {
+    left: 955px;
+    top: 582px;
+}
+
+#reviews-button {
+    left: 1170px;
+    top: 582px;
+}
+
+#trailer-button, #reviews-button {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #822DB4;
+
+    background: #F2EBFF;
+    border: 1px solid #822DB4;
+    border-radius: 8px;
+
+    transition: all .3s;
+}
+
+#trailer-button:hover, #reviews-button:hover {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgb(255, 255, 255);
+
+    background: rgb(130, 45, 180);
+    border-radius: 8px;
+
+    box-shadow: -10px 10px #000000;
+    transform: translate(10px, -10px);
+}
+
+.section-header {
+    position: absolute;
+    width: 109px;
+    height: 39px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+#actors-list {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    width: 1259px;
+    height: 251px;
+    left: 90px;
+    top: 865px;
+}
+
+#actors-list article {
+    width: 147px;
+    height: 249px;
+
+    background: #F2EBFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+    transition: all .3s;
+}
+
+#actors-list article:hover {
+    box-shadow: -10px 10px #000000;
+    transform: translate(10px, -10px);
+}
+
+#actors-list img {
+    width: 147px;
+    height: 209px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#actors-list div {
+    width: 95px;
+    height: 18px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#reviews-section {
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    width: 936px;
+    height: 1288px;
+    left: 90px;
+    top: 1350px;
+}
+
+#reviews-list {
+    flex-direction: column;
+}
+
+#reviews-list article {
+    background: #F2EBFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    width: 936px;
+    padding: 40px;
+    position: relative;
+}
+
+#reviews-list article .date {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.6;
+}
+
+#reviews-list article h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+#reviews-list article p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+article .grade {
+    position: absolute;
+    right: 40px;
+    top: -1px;
+    width: 72px;
+    height: 93px;
+    background-size: contain;
+    line-height: 90px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+article .grade span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+article .grade.positive {
+    background-image: url("positive-review.png");
+}
+
+article .grade.negative {
+    background-image: url("negative-review.png");
+}
+
+.reviews-summary {
+    border-left: 1px solid #000000;
+    margin-left: 144px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 261px;
+}
+
+.scores {
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+.score {
+    height: 87px;
+}
+
+.reviews-number {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+
+.positive.reviews-number {
+    color: #30CF7F;
+}
+
+.negative.reviews-number {
+    color: #CF3030;
+}
+
+.scores .caption {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.reviews-number span {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: 7px
+}

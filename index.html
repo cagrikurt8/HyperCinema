@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function get() {
+            window.scrollTo(0, document.body.scrollHeight);
+            let summary = document.querySelector('.reviews-summary').getBoundingClientRect();
+            let rn1 = document.querySelectorAll('.reviews-summary .reviews-number')[0].getBoundingClientRect();
+            let rn2 = document.querySelectorAll('.reviews-summary .reviews-number')[1].getBoundingClientRect();
+            let caption1 = document.querySelectorAll('.reviews-summary .caption')[0].getBoundingClientRect();
+
+            console.log(summary);
+            console.log(rn1);
+            console.log(rn2);
+            console.log(caption1);
+        }
+
+    </script>
+</head>
+<body>
+    <div id="main-title">Hyper Cinema</div>
+    <div id="login-button">Login</div>
+    <video controls="controls" src="https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.480p.vp9.webm" poster="poster.png"></video>
+    <div class="name">Shrek</div>
+    <div class="rating">6+</div>
+    <div class="sub-info">2001, USA, 1h 30m</div>
+    <div class="description">A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.</div>
+    <table>
+        <tr>
+            <th id="th1">Directors</th>
+            <td id="td1">Andrew Adamson, Vicky Jenson</td>
+        </tr>
+        <tr>
+            <th id="th2">Genre</th>
+            <td id="td2">Animation, Adventure, Comedy</td>
+        </tr>
+        <tr>
+            <th id="th3">IMDB</th>
+            <td id="td3">7.9</td>
+        </tr>
+        <tr>
+            <th id="th4">Kinopoisk</th>
+            <td id="td4">8.2</td>
+        </tr>
+    </table>
+    <button id="trailer-button">Trailer</button>
+    <button id="reviews-button" onclick="location.href='#reviews-section'">Reviews</button>
+
+    <div class="section-header" style="left: 90px; top: 786px;">Actors</div>
+
+    <div id="actors-list">
+        <article>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTY0MTM1MTM5Nl5BMl5BanBnXkFtZTcwNzA1OTM3MQ@@._V1_UX214_CR0,0,214,317_AL_.jpg">
+            <div>Mike Myers</div>
+        </article>
+        <article>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTc0NDQzODAwNF5BMl5BanBnXkFtZTYwMzUzNTk3._V1_UY317_CR6,0,214,317_AL_.jpg">
+            <div>Eddie Murphy</div>
+        </article>
+        <article>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTkxNTI5NzM4MV5BMl5BanBnXkFtZTcwMTI3ODY3Mg@@._V1_UY317_CR0,0,214,317_AL_.jpg">
+            <div>Cameron Diaz</div>
+        </article>
+        <article>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTQzMzUyNDkzNF5BMl5BanBnXkFtZTcwNTMwNTU5MQ@@._V1_UY317_CR19,0,214,317_AL_.jpg">
+            <div>John Lithgow</div>
+        </article>
+        <article>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTc1NDUzMzM5MV5BMl5BanBnXkFtZTcwNzY1OTYyOQ@@._V1_UX214_CR0,0,214,317_AL_.jpg">
+            <div>Vincent Cassel</div>
+        </article>
+        <article>
+            <img src="https://m.media-amazon.com/images/M/MV5BOGU4OTY4MzYtMzQzMC00Yjc3LTk1ZjctNDRiMzFjMjdkZDBmXkEyXkFqcGdeQXVyMTY5NzUwOQ@@._V1_UY317_CR26,0,214,317_AL_.jpg">
+            <div>Andrew Adamson</div>
+        </article>
+        <article>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTU1MzI0OTc0Ml5BMl5BanBnXkFyZXN1bWU@._V1_UX214_CR0,0,214,317_AL_.jpg">
+            <div>Elisa Gabrielli</div>
+        </article>
+    </div>
+
+    <div class="section-header" style="left: 90px; top: 1269px;">Reviews</div>
+    <section id="reviews-section">
+        <div id="reviews-list">
+            <article>
+                <span class="date">21 June 2020</span>
+                <h1>Groundbreaking</h1>
+                <p>For younger viewers, they might not understand the impact of "Shrek" on the film industry and CGI
+                    movies. However, being an older guy, I remember how groundbreaking and amazing the computer
+                    animation was when the film debuted. It was head and shoulders better than the few CGI movies that
+                    had come out in the previous decade...and it finally gave Pixar a serious run for the money. In
+                    addition, the plot was very adult...and the film's appeal was much greater than a typical CGI story.
+                    Great animation, great story telling and great voice acting, while the movie isn't quite impressive
+                    to see today, it still holds up very well and is well worth your time.
+                    </br>
+                    </br>
+                    I could easily say more but this film has over a thousand reviews....so I'll just end it here! </p>
+                <div class="grade positive">
+                    <div>9<span>/10</span></div>
+                </div>
+            </article>
+            <article>
+                <div class="date">11 May 2021</div>
+                <h1>Not the best movie, also scared some kids</h1>
+                <p>My 3 year old and my 8 year old (both sons) and my 12 year old (daughter) were terrified. True it
+                    didn’t show any scary fights or other things. My daughter was fine but she found disturbing memes.
+                    My sons found that the scene where shrek hits somebody with a sword while knighting them gave my
+                    kids nightmares. I recommend just depends on what the parent thinks. I would say watch it with your
+                    kids the first few times. Also not for young kids because they will have nightmares.</p>
+                <div class="grade negative">
+                    <div>2<span>/10</span></div>
+                </div>
+            </article>
+            <article>
+                <div class="date">11 May 2009</div>
+                <h1>Original and funny: delightful for kids and adults alike!</h1>
+                <p>I liked the incidental music very much, especially in the escape from the Dragon scene. I wasn't
+                    hugely fond of the pop music featured, but putting that minor quibble aside, this was still an
+                    original and funny animated film, that will please any animation lover. The animation is faultless,
+                    never stiff, and lovely backgrounds. The script is laugh-out-loud funny with the fairytale
+                    characters, Gingerbread Man especially, and Robin Hood. The characters are definitely memorable, and
+                    the terrific voice cast brings the film to life. Mike Myers voices the ogre with feeling, but it is
+                    Eddie Murphy who steals the film. Though Cameron Diaz is lovely as Fiona, and John Lithgow is
+                    delightfully villainous as Lord Farquad, though his villain isn't the most memorable villain ever in
+                    an animation. The film sparkles with heart and humour, it is impossible not to like it. In
+                    conclusion, look out for it, you'll be glad you did! 9/10 Bethany Cox. </p>
+                <div class="grade positive">
+                    <div>8<span>/10</span></div>
+                </div>
+            </article>
+        </div>
+        <div class="reviews-summary">
+            <div class="scores">
+                <div class="score">
+                    <div class="reviews-number">3</div>
+                    <div class="caption">total</div>
+                </div>
+                <div class="score">
+                    <div class="reviews-number positive">2<span>66,6%</span></div>
+                    <div class="caption">positive</div>
+                </div>
+                <div class="score">
+                    <div class="reviews-number negative">1<span>33,3%</span></div>
+                    <div class="caption">negative</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
